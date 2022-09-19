@@ -2,6 +2,10 @@
   --title-color: #212121;
   --accent-color: #2196f3;
   --main-color: #757575;
+  --white: #fff;
+  --bg-color: #2f303a;
+  --black: #000;
+  --silver-color: #f5f4fa;
 }
 
 ul,
@@ -86,7 +90,7 @@ body {
 }
 
 .logo__decor {
-  color: #000;
+  color: var(--black);
 }
 
 .header__menu,
@@ -130,7 +134,7 @@ body {
 /* heroi */
 .heroi {
   padding: 200px 0;
-  background-color: #2f303a;
+  background-color: var(--bg-color);
 }
 
 .heroi__wraper {
@@ -145,7 +149,7 @@ body {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #fff;
+  color: var(--white);
   margin-bottom: 30px;
 }
 
@@ -155,7 +159,7 @@ body {
   letter-spacing: 0.06em;
   line-height: 1.87;
   font-weight: 700;
-  color: #fff;
+  color: var(--white);
   background-color: var(--accent-color);
   cursor: pointer;
   padding: 10px 32px;
@@ -217,7 +221,7 @@ body {
 
 /* team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--silver-color);
 }
 
 .team__title {
@@ -243,10 +247,12 @@ body {
 
 .team__descr {
   padding: 30px 0;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .team__name {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.18;
   color: var(--title-color);
   margin-bottom: 10px;
@@ -260,7 +266,7 @@ body {
 /* footer */
 .footer {
   padding: 60px 0;
-  background-color: #2f303a;
+  background-color: var(--bg-color);
 }
 
 .footer__logo {
@@ -269,7 +275,7 @@ body {
 }
 
 .footer .logo__decor {
-  color: #fff;
+  color: var(--white);
 }
 
 .footer__address {
@@ -278,7 +284,7 @@ body {
 
 .address__street {
   line-height: 1.71;
-  color: #fff;
+  color: var(--white);
   margin-bottom: 9px;
 }
 
@@ -297,7 +303,7 @@ body {
   font-family: inherit;
   font-size: 16px;
   cursor: pointer;
-  background-color: #f5f4fa;
+  background-color: var(--silver-color);
   color: var(--title-color);
   font-weight: 500;
   line-height: 1.62;
@@ -335,7 +341,7 @@ body {
 
 .portfolio__btn:hover,
 .portfolio__btn:focus {
-  color: #fff;
+  color: var(--white);
   background-color: var(--accent-color);
 }
 
@@ -343,6 +349,7 @@ body {
   letter-spacing: 0.06em;
   font-size: 18px;
   line-height: 2;
+  margin-bottom: 4px;
   color: var(--title-color);
 }
 
